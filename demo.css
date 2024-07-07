@@ -1,6 +1,129 @@
+h3{
+    font-size: 40px;
+}
 h2{
     font-size: 40px;
 }
 h1{
     font-size: 55px;
+    
+}
+.color-heading{
+    color: #F64A8A;
+}
+body{
+    font-family: Arial;
+}
+.the-button{
+    text-decoration: none;
+    background-color: #F64A8A;
+    padding: 14px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 5px;
+    background-image: linear-gradient(45deg, #F64A8A, #E75480);
+    font-size: small;
+    line-height: 5em;
+}
+.half-work{
+    width: 35%;
+    float: left;
+    padding: 3%;
+    margin-left: 5%;
+}
+.half-work img{
+    width: 95%;
+}
+.first-part{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 1000px;
+}
+#heading-text{
+    margin-top: 10%;
+}
+p{
+    line-height: 2em;
+}
+.second-part{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.third-part{
+    background-image: url("images/latest-work-bg.png");
+}
+.latest-work{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.latest-work img{
+    width: 25%;
+    border-radius: 10px;
+    line-height:10px
+}
+.biger{
+    font-size: larger;
+    text-align: center;
+}
+.header {
+    text-align: center;
+}
+.last-heading{
+    justify-content: center;
+}
+.last-part {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/footer-bg.png");
+}
+.name-tag{
+    font-weight: bold;
+    font-size: 20px;
+}
+.pera{
+    
+    color: gray;
+}
+.gap{
+    line-height: 5em;
+}
+.peragraph{
+    width: 20%;
+    font-size: large;
+}
+.big-button {
+    text-decoration: none;
+    background-color: #F64A8A;
+    background-image: linear-gradient(45deg, #F64A8A, #E75480);
+    padding: 70px 210px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.big-button:hover {
+    background-color: #E75480;
+    transform: translateY(-5px);
+}
+.button-text {
+    margin: 0;
+    font-size: 0.7em;
+}
+.email {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+.copyright{
+    text-align: center;
 }
